@@ -4,11 +4,39 @@ body {
 
 .header {
     display: flex;
-    background: #1F2937
+    background: #1F2937;
+    flex-basis: 600px;
+    flex-direction: column;
 }
 
-.header, h1 {
-    font-size: 24px;
+.sidebar {
+    display: flex;
+    gap: 20px;
+}
+
+.header .headerMain h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
     color: #F9FAF8;
 
+}
+
+.button {
+    display: flex;
+    align-self:flex-end;
+}
+
+
+.header h1, .headerMain {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header h1 {
+    display: flex;
+    align-items: center;
 }
