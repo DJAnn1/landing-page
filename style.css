@@ -24,6 +24,13 @@ body {
 .header .headerMain h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
+
+.header .headerMain p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
 }
 
 .headerMain {
@@ -43,14 +50,11 @@ a {
     align-self: flex-end;
 }
 
-.header h1,
-.headerMain {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .header h1 {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
 }
